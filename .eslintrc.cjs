@@ -5,6 +5,12 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
   ],
+  map: [
+    // And all your import aliases
+    ['@components', './src/components'],
+    ['@layouts', './src/layouts'],
+    ['@lib', './src/lib'],
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   plugins: ['react-refresh'],

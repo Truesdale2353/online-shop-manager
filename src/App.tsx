@@ -1,15 +1,17 @@
-import { useState } from 'react'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import { BrowserRouter as Router } from "react-router-dom";
+import { Header } from "./components/Header/Header";
+import { RouterWrapper } from "./RouterWrapper";
+import { RecoilRoot } from "recoil";
+import "./App.css";
+const App = () => {
   return (
-    <>
-      <div>TEST</div>
-       
-    </>
-  )
-}
+    <RecoilRoot>
+      <Router>
+        <Header />
+        <RouterWrapper />
+      </Router>
+    </RecoilRoot>
+  );
+};
 
-export default App
+export default App;
