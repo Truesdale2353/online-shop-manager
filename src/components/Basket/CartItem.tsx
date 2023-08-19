@@ -15,6 +15,7 @@ interface CartItemProps {
   price: number;
   quantity: number;
   onDelete: () => void;
+  onItemClick: () => void;
 }
 
 const CartItem: React.FC<CartItemProps> = ({
@@ -23,9 +24,11 @@ const CartItem: React.FC<CartItemProps> = ({
   price,
   quantity,
   onDelete = () => {},
+  onItemClick = () => {},
 }) => {
+
   return (
-    <CartItemCard>
+    <CartItemCard onClick={onItemClick}>
       <CartItemImage image={image} title={name} />
       <CartItemInfo>
         <CartItemName variant="h6">{name}</CartItemName>

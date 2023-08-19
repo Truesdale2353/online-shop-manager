@@ -1,6 +1,6 @@
 {
   "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "products":  [
+  "products": [
     {
       "id": 1,
       "name": "Product 1",
@@ -8,7 +8,9 @@
       "colors": ["Red"],
       "category": "Clothing",
       "description": "This is product 1.",
-      "images": ["https://static.pullandbear.net/2/photos//2023/V/0/2/p/4689/900/250/4689900250_2_1_8.jpg?t=1671027208707&imwidth=375"]
+      "images": [
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4689/900/250/4689900250_2_1_8.jpg?t=1671027208707&imwidth=375"
+      ]
     },
     {
       "id": 2,
@@ -17,7 +19,10 @@
       "colors": ["Green", "Blue"],
       "category": "Shoes",
       "description": "This is product 2.",
-      "images": ["https://static.pullandbear.net/2/photos//2023/V/0/2/p/4686/560/800/4686560800_2_1_8.jpg?t=1682595215627&imwidth=375", "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4679/519/800/4679519800_2_1_8.jpg?t=1682595600890&imwidth=375"]
+      "images": [
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4686/560/800/4686560800_2_1_8.jpg?t=1682595215627&imwidth=375",
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4679/519/800/4679519800_2_1_8.jpg?t=1682595600890&imwidth=375"
+      ]
     },
     {
       "id": 3,
@@ -26,7 +31,11 @@
       "colors": ["Yellow", "Black", "Red"],
       "category": "Accessories",
       "description": "This is product 3.",
-      "images": ["https://static.pullandbear.net/2/photos//2023/V/0/2/p/4689/560/833/4689560833_2_1_8.jpg?t=1682595558533&imwidth=375", "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4674/508/710/4674508710_2_1_8.jpg?t=1661957973336&imwidth=375", "https://static.pullandbear.net/2/photos//2023/V/0/2/p/8678/507/800/8678507800_2_2_8.jpg?t=1683122947971&imwidth=375"]
+      "images": [
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4689/560/833/4689560833_2_1_8.jpg?t=1682595558533&imwidth=375",
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4674/508/710/4674508710_2_1_8.jpg?t=1661957973336&imwidth=375",
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/8678/507/800/8678507800_2_2_8.jpg?t=1683122947971&imwidth=375"
+      ]
     },
     {
       "id": 4,
@@ -35,7 +44,10 @@
       "colors": ["White", "Gray", "Purple"],
       "category": "Clothing",
       "description": "This is product 4.",
-      "images": ["https://static.pullandbear.net/2/photos//2023/V/0/2/p/3676/502/711/3676502711_2_1_8.jpg?t=1681195750622&imwidth=375", "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4674/510/800/4674510800_2_1_8.jpg?t=1682595356302&imwidth=375"]
+      "images": [
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/3676/502/711/3676502711_2_1_8.jpg?t=1681195750622&imwidth=375",
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4674/510/800/4674510800_2_1_8.jpg?t=1682595356302&imwidth=375"
+      ]
     },
     {
       "id": 5,
@@ -44,7 +56,9 @@
       "colors": ["Brown"],
       "category": "Shoes",
       "description": "This is product 5.",
-      "images": ["https://static.pullandbear.net/2/photos//2023/V/0/2/p/4679/519/800/4679519800_2_1_8.jpg?t=1682595600890&imwidth=375"]
+      "images": [
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4679/519/800/4679519800_2_1_8.jpg?t=1682595600890&imwidth=375"
+      ]
     },
     {
       "id": 6,
@@ -53,7 +67,10 @@
       "colors": ["Blue", "Red"],
       "category": "Clothing",
       "description": "This is product 6.",
-      "images": ["https://static.pullandbear.net/2/photos//2023/V/0/2/p/4686/560/800/4686560800_2_1_8.jpg?t=1682595215627&imwidth=375", "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4679/519/800/4679519800_2_1_8.jpg?t=1682595600890&imwidth=375"]
+      "images": [
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4686/560/800/4686560800_2_1_8.jpg?t=1682595215627&imwidth=375",
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4679/519/800/4679519800_2_1_8.jpg?t=1682595600890&imwidth=375"
+      ]
     },
     {
       "id": 7,
@@ -62,7 +79,10 @@
       "colors": ["Green", "Yellow"],
       "category": "Shoes",
       "description": "This is product 7.",
-      "images": ["https://static.pullandbear.net/2/photos//2023/V/0/2/p/4674/508/710/4674508710_2_1_8.jpg?t=1661957973336&imwidth=375", "https://static.pullandbear.net/2/photos//2023/V/0/2/p/8678/507/800/8678507800_2_2_8.jpg?t=1683122947971&imwidth=375"]
+      "images": [
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4674/508/710/4674508710_2_1_8.jpg?t=1661957973336&imwidth=375",
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/8678/507/800/8678507800_2_2_8.jpg?t=1683122947971&imwidth=375"
+      ]
     },
     {
       "id": 8,
@@ -71,7 +91,10 @@
       "colors": ["White", "Gray"],
       "category": "Accessories",
       "description": "This is product 8.",
-      "images": ["https://static.pullandbear.net/2/photos//2023/V/0/2/p/7688/502/434/7688502434_2_1_8.jpg?t=1682595700140&imwidth=375", "https://static.pullandbear.net/2/photos//2023/V/0/2/p/3676/502/711/3676502711_2_1_8.jpg?t=1681195750622&imwidth=375"]
+      "images": [
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/7688/502/434/7688502434_2_1_8.jpg?t=1682595700140&imwidth=375",
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/3676/502/711/3676502711_2_1_8.jpg?t=1681195750622&imwidth=375"
+      ]
     },
     {
       "id": 9,
@@ -80,7 +103,10 @@
       "colors": ["Brown", "Black"],
       "category": "Clothing",
       "description": "This is product 9.",
-      "images": ["https://static.pullandbear.net/2/photos//2023/V/0/2/p/4674/510/800/4674510800_2_1_8.jpg?t=1682595356302&imwidth=375", "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4689/560/833/4689560833_2_1_8.jpg?t=1682595558533&imwidth=375"]
+      "images": [
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4674/510/800/4674510800_2_1_8.jpg?t=1682595356302&imwidth=375",
+        "https://static.pullandbear.net/2/photos//2023/V/0/2/p/4689/560/833/4689560833_2_1_8.jpg?t=1682595558533&imwidth=375"
+      ]
     },
     {
       "id": 10,
@@ -229,6 +255,58 @@
         }
       ],
       "status": "fulfilled"
+    }
+  ],
+  "categories": [
+    {
+      "id": "d56637e3-5549-4e84-8f12-a6229faf302f",
+      "name": "RF Shielding",
+      "displayName": "Display Name for RF Shielding"
+    },
+    {
+      "id": "32d5d2b1-bf2e-40df-8749-826e1bad8f53",
+      "name": "Drywall & Acoustical (MOB)",
+      "displayName": "Display Name for Drywall & Acoustical (MOB)"
+    },
+    {
+      "id": "b0bce7fb-dbea-4492-b531-cf544a3838cb",
+      "name": "Curb & Gutter",
+      "displayName": "Display Name for Curb & Gutter"
+    },
+    {
+      "id": "6f2be0d0-4556-4b66-8389-02772676d935",
+      "name": "Epoxy Flooring",
+      "displayName": "Display Name for Epoxy Flooring"
+    },
+    {
+      "id": "b6f87b74-bb8c-43a5-9a7a-657a9ac7d977",
+      "name": "Casework",
+      "displayName": "Display Name for Casework"
+    },
+    {
+      "id": "150e06ad-f0d7-468c-ad6f-e2b258fdf716",
+      "name": "Masonry",
+      "displayName": "Display Name for Masonry"
+    },
+    {
+      "id": "0c551b2c-4ff6-488d-a85d-924300589c95",
+      "name": "Fire Sprinkler System",
+      "displayName": "Display Name for Fire Sprinkler System"
+    },
+    {
+      "id": "996b2900-852f-4938-8cdc-169fc646fc45",
+      "name": "Framing (Wood)",
+      "displayName": "Display Name for Framing (Wood)"
+    },
+    {
+      "id": "e256a2b2-156f-4d0a-a08e-a3c7edd29ee6",
+      "name": "Doors, Frames & Hardware",
+      "displayName": "Display Name for Doors, Frames & Hardware"
+    },
+    {
+      "id": "936e3148-b792-46b4-8a4d-1485daf55559",
+      "name": "Retaining Wall and Brick Pavers",
+      "displayName": "Display Name for Retaining Wall and Brick Pavers"
     }
   ]
 }

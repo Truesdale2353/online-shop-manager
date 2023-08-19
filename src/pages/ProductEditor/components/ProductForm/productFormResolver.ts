@@ -7,6 +7,7 @@ const productFormSchema: yup.ObjectSchema<ProductFormProps> = yup.object({
   price: yup.number().required('Price is required').positive('Price must be a positive number'),
   description: yup.string().required('Description is required'),
   colors: yup.array().of(yup.string().defined()).defined(),
+  categories: yup.array().of(yup.string().defined()).defined(),
 });
 
 export { productFormSchema };

@@ -6,21 +6,24 @@ import ControllerWrapper from "../ControllerWrapper";
 import { Product, ProductFormProps } from "../../types";
 import { ImageFormWithData } from "../ImageForm/ImageFormWithData";
 import { ColorSelector } from "../ColorSelector/ColorSelector";
-
-const categories = ["Shirt", "Pants", "Shoes"];
+import { DescriptionEditor } from "../DescriptionEditor/DescriptionEditor";
+import { Category } from "@/components/types/CategoryTypes";
+import { CategorySelector } from "../CategorySelector/CategorySelector";
 
 const defaultValues: ProductFormProps = {
   name: '',
   price: 0,
   description: '',
   colors: [],
+  categories: [],
 }
 
 interface FormProps {
   product?: Product;
+  categories: Array<Category>
   onSubmit: (data: ProductFormProps) => void;
 }
-const ProductForm = ({ product, onSubmit }: FormProps) => {
+const ProductForm = ({ product, onSubmit, categories }: FormProps) => {
   const {
     control,
     handleSubmit,
@@ -51,16 +54,17 @@ const ProductForm = ({ product, onSubmit }: FormProps) => {
             helperText={errors.price?.message}
           />
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={6}>
         <ControllerWrapper
             name="description"
             label="Description"
             control={control}
             error={Boolean(errors.description)}
             helperText={errors.description?.message}
+            externalField={({onChange}: ControllerRenderProps) => <DescriptionEditor onChange={onChange} value={""}/>}
           />
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={6} sm={6}>
         <ControllerWrapper
             name="colors"
             label="Colors"
@@ -70,16 +74,16 @@ const ProductForm = ({ product, onSubmit }: FormProps) => {
             externalField={({onChange}: ControllerRenderProps) => <ColorSelector onChange={onChange}/>}
           />
         </Grid>
-        {/* <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6}>
         <ControllerWrapper
             name="categories"
             label="Categories"
             control={control}
-            error={Boolean(errors.categories)}
-            helperText={errors.categories?.message}
-            options={categories}
+            error={Boolean(errors.colors)}
+            helperText={errors.colors?.message}
+            externalField={({onChange}: ControllerRenderProps) => <CategorySelector onChange={onChange} categories={categories}/>}
           />
-        </Grid> */}
+        </Grid>
         <Grid item xs={12} sm={6}>
           <ImageFormWithData />
           </Grid>

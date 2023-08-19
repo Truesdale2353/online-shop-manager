@@ -1,4 +1,3 @@
-import { Product } from "@/pages/ProductEditor/types";
 import { atom } from "recoil";
 import { recoilPersist } from "recoil-persist";
 import { BasketProduct } from "./types";

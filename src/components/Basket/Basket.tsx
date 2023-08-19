@@ -27,6 +27,9 @@ const Basket = ({
 
   const { basket, removeItem } = useBasket();
   const totalPrice = useMemo(()=> calculateTotalValue(basket),[basket]);
+  const onItemClick = (id: number) => {
+    window.location.href = `/product/${id}`;
+  }
   const renderProductList = () => {
     return basket.map((d) => (
       <CartItem
@@ -36,6 +39,7 @@ const Basket = ({
         image={d.images[0]}
         quantity={d.quantity}
         onDelete={() =>removeItem(d)}
+        onItemClick={()=>onItemClick(d.id)}
       />
     ));
   };

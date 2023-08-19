@@ -35,6 +35,10 @@ const ColorSelector = ({ onChange }: ColorSelectorProps) => {
         multiple
         value={selectedColors}
         onChange={handleChange}
+        MenuProps={{
+          variant: "menu",
+          getContentAnchorEl: null,
+        }}
         renderValue={(selected) => (
           <div>
             {(selected as string[]).map((color) => (

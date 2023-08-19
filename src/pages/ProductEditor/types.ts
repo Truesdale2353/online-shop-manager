@@ -1,3 +1,5 @@
+import { Category } from "@/components/types/CategoryTypes";
+
 interface Image {
   file: File;
 }
@@ -7,7 +9,7 @@ interface ProductFormProps {
   price: number;
   description: string;
   colors: Array<string>;
-  // categories: string;
+  categories: Array<string>;
 }
 
 interface RelatedProduct {
@@ -26,7 +28,7 @@ interface Product {
   price: number;
   description: string;
   colors: string[];
-  categoreis: string[];
+  categoreis: Array<Category>;
   images: string[];
   relatedProducts: RelatedProduct[];
 }
